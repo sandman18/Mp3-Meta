@@ -1,0 +1,38 @@
+
+<head>
+<script src="http://jwpsrv.com/library/7fD0gL19EeKgRxIxOQulpA.js"></script>
+
+</head>
+
+<body>
+{{> video}}
+
+{{> youtube}}
+
+{{> mp3}}
+
+{{> out}}
+
+
+</body>
+
+
+<template name="video">
+  <div id='my-video' class='media'></div>
+</template>
+
+<template name ="youtube">
+
+  <div id='kenpo' class='media'></div>
+
+</template>
+
+<template name ="mp3">
+ <input type="button" value="Push me" onclick="mp3meta()">
+
+</template>
+
+<template name ="out">
+ <div id="output"> </div>
+
+</template>
