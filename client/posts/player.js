@@ -1,6 +1,6 @@
 Template.video.rendered = function () {
 	jwplayer('my-video').setup({
-		file: 'http://localhost:3000/01TodayIsTheDay.mp3',
+		file: 'http://localhost:3000/my.mp3',
 		height: '25'
 	});
 };
@@ -19,7 +19,7 @@ Template.youtube.rendered = function () {
 function mp3meta() {
 
  function test1() {
-	var file = "http://localhost:3000/01TodayIsTheDay.mp3";
+	var file = "http://localhost:3000/my.mp3";
 
 	var out = document.getElementById("output");
 	out.value = "Loading file \"" + file + "\"..\r\n";
